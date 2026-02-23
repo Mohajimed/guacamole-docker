@@ -114,7 +114,7 @@ services:
     environment:
       PGDATA: /var/lib/postgresql/data/guacamole
       POSTGRES_DB: guacamole_db
-      POSTGRES_PASSWORD: 'ChooseYourOwnPasswordHere1234'
+      POSTGRES_PASSWORD: 'L5rGzwdwnADpzdVtWf9qXSGysmn9fHqZ'
       POSTGRES_USER: guacamole_user
     image: postgres:15.2-alpine
     networks:
@@ -136,7 +136,7 @@ services:
       GUACD_HOSTNAME: guacd
       POSTGRESQL_DATABASE: guacamole_db
       POSTGRESQL_HOSTNAME: postgres
-      POSTGRESQL_PASSWORD: 'ChooseYourOwnPasswordHere1234'
+      POSTGRESQL_PASSWORD: 'seR3Yx2zABu6cdBdRMbzNTsjW8p4qBkd'
       POSTGRESQL_USERNAME: guacamole_user
       RECORDING_SEARCH_PATH: /record
     image: guacamole/guacamole:1.6.0
